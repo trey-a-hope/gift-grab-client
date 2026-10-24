@@ -35,7 +35,9 @@
 </head>
 
 <body>
-  <script src="flutter_bootstrap.js" async defer></script>
+  <!-- Required by passkeys_web (transitive dependency of clerk_flutter). Must load before Flutter starts. -->
+  <!-- Vendored from https://github.com/corbado/flutter-passkeys/releases/download/2.4.0/bundle.js -->
+  <script src="passkeys_bundle.js" type="application/javascript"></script>
   <script src="flutter_bootstrap.js" async></script>
 </body>
 

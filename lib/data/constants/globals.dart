@@ -1,5 +1,7 @@
 import 'package:clerk_flutter/clerk_flutter.dart';
+import 'package:gift_grab_client/core/clerk_web_storage.dart';
 import 'package:gift_grab_client/data/configuration/environment.dart';
+import 'package:universal_platform/universal_platform.dart';
 
 class Globals {
   Globals._();
@@ -21,6 +23,8 @@ class Globals {
     publishableKey: Environment.isProd
         ? clerkLivePublishableKey
         : clerkTestPublishableKey,
+    persistor: UniversalPlatform.isWeb ? ClerkWebPersistor() : null,
+    fileCache: UniversalPlatform.isWeb ? ClerkWebFileCache() : null,
   );
 
   // Nakama
