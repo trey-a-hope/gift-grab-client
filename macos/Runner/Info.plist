@@ -26,7 +26,7 @@
 			<key>CFBundleURLSchemes</key>
 			<array>
 				<string>com.googleusercontent.apps.955072082839-oo9gainsq9d4scss7kjuttqt5u54vshj</string>
-				<string>com.example.giftGrab</string>
+				<string>com.treycodes.gift-grab</string>
 				<string>com.clerk.flutter</string>
 			</array>
 		</dict>
