@@ -69,6 +69,17 @@ flutter:
     - assets/images/
     - shorebird.yaml
 
+msix_config:
+  display_name: Gift Grab
+  identity_name: treycodes.GiftGrab
+  publisher: CN=F58BA3FE-0FCF-4F83-8978-E2D0D64D13D8
+  publisher_display_name: treycodes
+  logo_path: assets/icon/icon.png
+  capabilities: internetClient
+  store: true
+  msix_version: 26.11.2.0
+  build_windows: false
+
 flutter_launcher_icons:
   image_path: "assets/icon/icon.png"
   android: "ic_launcher"
