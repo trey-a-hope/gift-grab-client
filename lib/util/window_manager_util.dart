@@ -15,10 +15,10 @@ class WindowManagerUtil {
     WindowOptions windowOptions = const WindowOptions(
       size: _windowMinimumSize,
       minimumSize: _windowMinimumSize,
+
       center: true,
       backgroundColor: Colors.transparent,
       skipTaskbar: false,
-      titleBarStyle: TitleBarStyle.hidden,
     );
 
     windowManager.waitUntilReadyToShow(windowOptions, () async {

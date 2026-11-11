@@ -1,4 +1,4 @@
-Gift Grab v26.11.1
+Gift Grab v26.11.2
 
 What's new
 - New upload since script update.
