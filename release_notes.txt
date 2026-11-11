@@ -1,4 +1,5 @@
 Gift Grab v26.11.1
 
 What's new
-- New upload since script update.- Gift Grab is now listed under Games on the Mac App Store.
+- New upload since script update.
+- Gift Grab is now listed under Games on the Mac App Store.
